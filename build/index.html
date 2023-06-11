@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Todo App</title>
+  </head>
+  <body>
+    <main id="app">
+      <header class="app-header">
+        <h1 class="app-title">todo app</h1>
+      </header>
+
+      <section class="todos-section">
+        <!-- Form -->
+        <form class="todo-form">
+          <input
+            type="text"
+            name="text"
+            id="todoInput"
+            placeholder="Study my subjects..."
+          />
+          <button type="submit" class="add-btn">add</button>
+        </form>
+
+        <!-- List -->
+        <div class="list-parent">
+          <header class="list-header">
+            <h2 class="list-title">list</h2>
+            <button type="button" class="clear-btn">clear</button>
+          </header>
+          <ul class="todo-list"></ul>
+        </div>
+      </section>
+    </main>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
